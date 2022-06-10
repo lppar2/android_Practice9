@@ -22,7 +22,7 @@ import com.yandex.runtime.image.ImageProvider;
 
 public class MainActivity extends AppCompatActivity implements UserLocationObjectListener{
     private MapView mapView;
-    private final String MAPKIT_API_KEY = "253d09a0-5811-48cd-8599-8d612158c237";
+    private final String MAPKIT_API_KEY = "KEY";
     private static final int REQUEST_CODE_PERMISSION = 100;
     private final String[] PERMISSIONS = {
             Manifest.permission.ACCESS_COARSE_LOCATION,
